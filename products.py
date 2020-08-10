@@ -20,3 +20,9 @@ while True:
 print(products)
 
 
+for product in products:
+	print(product)
+
+for product in products:
+	print(product[0],'的價格是', product[1])
+	
